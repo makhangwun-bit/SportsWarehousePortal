@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!DOCTYPE html> 
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: white;
+}
+button { 
+       background-color:white; 
+       width: 100%;
+        color: orange; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px blue; 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color: lightblue;
+    } 
+</style> 
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">SharePoint App</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">13600.0000000000</mso:Order>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">SharePoint App</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ContentTypeId msdt:dt="string">0x010100C0C7A87C47DCC14BB2EC110BDB715754</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+<mso:ReferenceId msdt:dt="string"></mso:ReferenceId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>  
+<body>  
+   <center> <h1 > Sports warehouse login form </h1> </center>
+  
+    <form>
+        <div class="container"> 
+            <label>Username : </label> 
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label> 
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button> 
+            <input type="checkbox" checked="checked"> Remember me 
+            <button type="button" class="cancelbtn"> Cancel</button> 
+            Forgot <a href="#"> password? </a> 
+        </div> 
+    </form>   
+</body>   
+</html>
+
+ 
